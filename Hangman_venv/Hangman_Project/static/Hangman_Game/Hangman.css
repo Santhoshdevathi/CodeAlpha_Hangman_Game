@@ -1,0 +1,62 @@
+body{
+    background-color: rgb(178, 243, 243);
+}
+
+
+.letterInput{
+    border:1px solid;
+    margin-left: 375px;
+    border-radius: 5px;
+    width: 40%;
+}
+
+.container{
+    display: flex;
+    align-content: space-evenly;
+    border: 1px solid;
+    border-radius: 5px;
+    margin-left: 250px;
+    margin-top: 20px;
+    width: 60%;
+    
+}
+
+.completed{
+    text-align: center;
+    align-content: center;
+    width: 50%;
+    border-right: 1px solid red;
+    border-radius: 5px;
+    margin-top:10px;
+    margin-bottom: 10px;
+    margin-left: 10px;
+    margin-right: 0.5px;
+
+}
+
+.lives{
+    text-align: center;
+    width: 50%;
+    border-left: 1px solid red;
+    border-radius: 5px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-right: 10px;
+    margin-left: 0.5px;
+
+}
+
+.result{
+    text-align: center;
+    margin-top: 30px;
+    margin-left: 250px;
+    width: 60%;
+}
+
+.picture{
+    font-weight: bold;
+}
+
+.form-label{
+    font-weight: bold;
+}
